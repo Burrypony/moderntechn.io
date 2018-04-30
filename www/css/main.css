@@ -1443,3 +1443,13 @@ color: #d7e1e7;
 {
   right: -35px !important;
 }
+.header.wrapper.col-md-12.slick-dots
+{
+  bottom: -25px;
+  margin-bottom: 219px;
+}
+.slick-dots
+{
+  bottom: 0!important;
+  margin-bottom: 0px !important;
+}
