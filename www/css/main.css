@@ -463,14 +463,14 @@ div.menu-open{
   .usb .usb-img {
     position: absolute;
     top: 157px;
-    left: -90px; }
+    left: -50px; }
   .usb .usb-img2 {
     display: none;
     position: absolute;
-    top: 140px;
-    left: -77px; }
+    top: 100px;
+    left: -45px; }
   .usb h2 {
-    margin-top: 180px;
+    margin-top: 115px;
     margin-bottom: 25px; }
 
 .compatible {
@@ -1037,6 +1037,14 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .compatible h2
+  {
+    margin-top: 20px
+  }
+  .compatible .iphone
+  {
+    margin-top: 40px;
+  }
   .CoundownTimer
   {
     display: none !important;
@@ -1060,7 +1068,7 @@ color: #d7e1e7;
   .main-title-black, .main-title-white {
     font-size: 30px; }
   .main-p-white, .main-p-grey {
-    font-size: 16px; }
+    font-size: 16px !important;  }
   .main-text {
     margin-left: 15px; }
   .menu li {
@@ -1099,11 +1107,6 @@ color: #d7e1e7;
     margin-left: 35px; }
     .MT-PBC .text-wrap h2 {
       font-size: 30px; }
-  .MT-PBC img {
-    position: relative;
-    right: 95px;
-    top: 222px;
-    width: 120%; }
   .tellephone {
     bottom: 30px;
     right: 35px; }
@@ -1257,8 +1260,11 @@ color: #d7e1e7;
     width: 45%; }
   .MT-PBC .text-wrap {
     width: 80%;
-    height: auto;
-    margin-top: 50px; }
+    height: auto; }
+  .main-p-grey
+  {
+    line-height: 1.5;
+  }
   .MT-PBC img {
     top: 0;
     right: 0;
