@@ -1037,6 +1037,10 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .padding0_992px
+  {
+    padding: 0!important;
+  }
   .compatible h2
   {
     margin-top: 20px
