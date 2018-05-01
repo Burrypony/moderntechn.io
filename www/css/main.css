@@ -1490,14 +1490,16 @@ color: #d7e1e7;
   opacity: 1 !important;
 }
 #demo{
-  background-color: red;
+  background-color: black;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-position:relative;font-size:2.2em;font-family: 'Yantramanav', sans-serif;font-weight:900;text-align: center;
+position:relative;font-size:2.2em;font-family:  sans-serif;
+font-weight:lighter;
+text-align: center;
 }
 .big_red_text{
-  font-size: 2.2em;
+  font-size: 1.5em;
   color: red;
-  font-family: 'Yantramanav', sans-serif;
+  font-family:sans-serif;
   font-weight:900;
 }
