@@ -1418,7 +1418,7 @@ color: #d7e1e7;
   }}
 @media (max-width: 576px) {
 	.otstup {
-		margin-top: 60px !important;
+		margin-top: 25px !important;
 	}
 }
 @media (max-width: 400px) {
@@ -1474,7 +1474,7 @@ color: #d7e1e7;
   background: white;
   justify-content: space-around;
   align-items: center;
-  z-index: 99999;
+  z-index: 99998;
   opacity: 0;
 }
 .opacity_0
