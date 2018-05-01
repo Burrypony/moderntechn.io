@@ -1037,6 +1037,10 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .margin_0_auto_992px
+  {
+    margin: 0 auto;
+  }
   .padding0_992px
   {
     padding: 0!important;
@@ -1138,9 +1142,9 @@ color: #d7e1e7;
   .charge h2 {
     margin-top: 239px;
     margin-bottom: 25px;
-    margin-left: 35px; }
+    margin-left: 0; }
   .charge p {
-    margin-left: 35px; }
+    margin-left: 0; }
   .charge img {
     position: relative;
     width: 125%;
@@ -1314,7 +1318,7 @@ color: #d7e1e7;
     margin-bottom: 25px;
     margin-left: 35px; }
   .MT-WPB p {
-    margin-left: 35px; }
+    margin-left: 0; }
   .charge h2 {
     margin-top: 30px;
     margin-bottom: 25px; }
@@ -1336,9 +1340,9 @@ color: #d7e1e7;
   .capability h2 {
     margin-top: 30px;
     margin-bottom: 20px;
-    margin-left: 35px; }
+    margin-left: 0; }
   .capability p {
-    margin-left: 35px; }
+    margin-left: 0; }
   .QI-cover h2, .QI-cover p {
     margin-left: 35px; }
   .QI-cover h2 {
@@ -1502,4 +1506,8 @@ text-align: center;
   color: red;
   font-family:sans-serif;
   font-weight:900;
+}
+.copyright
+{
+  display: none;
 }
