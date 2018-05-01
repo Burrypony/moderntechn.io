@@ -1453,3 +1453,27 @@ color: #d7e1e7;
   bottom: 0!important;
   margin-bottom: 0px !important;
 }
+.CoundownTimer
+{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background: white;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 99999;
+}
+#demo{
+  background-color: red;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position:relative;font-size:5.2em;font-family: 'Yantramanav', sans-serif;font-weight:900;text-align: center;
+}
+.big_red_text{
+  font-size: 2.2em;
+  color: red;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight:900;
+}
