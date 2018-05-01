@@ -1033,9 +1033,14 @@ color: #d7e1e7;
   .wrapper {
     width: 100%; }
   .menu li {
-    margin-left: 7%; } }
+    margin-left: 7%; }
+
 
 @media (max-width: 992px) {
+  .CoundownTimer
+  {
+    display: none !important;
+  }}
 	 .shop-opt {
 	 display: none;
     }
@@ -1464,12 +1469,21 @@ color: #d7e1e7;
   justify-content: space-around;
   align-items: center;
   z-index: 99999;
+  opacity: 0;
+}
+.opacity_0
+{
+  opacity: 0;
+}
+.opacity_1
+{
+  opacity: 1 !important;
 }
 #demo{
   background-color: red;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-position:relative;font-size:5.2em;font-family: 'Yantramanav', sans-serif;font-weight:900;text-align: center;
+position:relative;font-size:2.2em;font-family: 'Yantramanav', sans-serif;font-weight:900;text-align: center;
 }
 .big_red_text{
   font-size: 2.2em;
