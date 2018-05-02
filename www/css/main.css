@@ -1037,6 +1037,18 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .iframe_inst_mobile
+  {
+    display: block !important;
+  }
+  .iframe_inst_desctope
+  {
+    display: none !important;
+  }
+  .big_red_text
+  {
+    font-size: 18px;
+  }
   .margin_0_auto_992px
   {
     margin: 0 auto;
@@ -1053,10 +1065,7 @@ color: #d7e1e7;
   {
     margin-top: 40px;
   }
-  .CoundownTimer
-  {
-    display: none !important;
-  }}
+  }
 	 .shop-opt {
 	 display: none;
     }
@@ -1456,11 +1465,13 @@ color: #d7e1e7;
     margin-left: 30%; } }
 .slick-prev
 {
-  left: -35px !important;
+  left: 25px !important;
+  top: 50% !important;
 }
 .slick-next
 {
-  right: -35px !important;
+  right: 25px !important;
+  top: 50% !important;
 }
 .header.wrapper.col-md-12.slick-dots
 {
@@ -1478,7 +1489,7 @@ color: #d7e1e7;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
   background: white;
   justify-content: space-around;
   align-items: center;
@@ -1497,17 +1508,27 @@ color: #d7e1e7;
   background-color: black;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-position:relative;font-size:2.2em;font-family:  sans-serif;
+position:relative;
+font-size:2.2em;
+font-family:"Proxima Nova Rg",  sans-serif;
 font-weight:lighter;
 text-align: center;
 }
 .big_red_text{
-  font-size: 1.5em;
-  color: red;
-  font-family:sans-serif;
+  font-size: 1.7em;
+  color: #ff8f1f;
+  font-family:"Proxima Nova Rg",sans-serif;
   font-weight:900;
 }
 .copyright
+{
+  display: none;
+}
+.iframe_inst_desctope
+{
+  display: block;
+}
+.iframe_inst_mobile
 {
   display: none;
 }
