@@ -1037,11 +1037,11 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
-  .iframe_inst_mobile
+  #iframe_inst_mobile
   {
     display: block !important;
   }
-  .iframe_inst_desctope
+  #iframe_inst_desctope
   {
     display: none !important;
   }
@@ -1524,11 +1524,11 @@ text-align: center;
 {
   display: none;
 }
-.iframe_inst_desctope
+#iframe_inst_desctope
 {
   display: block;
 }
-.iframe_inst_mobile
+#iframe_inst_mobile
 {
   display: none;
 }
