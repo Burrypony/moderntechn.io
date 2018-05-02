@@ -1051,7 +1051,7 @@ color: #d7e1e7;
   }
   .big_red_text
   {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .margin_0_auto_992px
   {
@@ -1441,6 +1441,14 @@ color: #d7e1e7;
 	.otstup {
 		margin-top: 25px !important;
 	}
+  #demo
+  {
+    font-size: 16px !important;
+  }
+  .big_red_text
+  {
+    font-size: 16px !important;
+  }
 }
 @media (max-width: 400px) {
   .main-title-white, .main-title-black {
@@ -1513,7 +1521,7 @@ color: #d7e1e7;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position:relative;
-font-size:2.2em;
+font-size:18px;
 font-family:"Proxima Nova Rg",  sans-serif;
 font-weight:lighter;
 text-align: center;
