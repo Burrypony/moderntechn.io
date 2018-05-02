@@ -1037,6 +1037,10 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .display_none_992
+  {
+    display: none;
+  }
   #iframe_inst_mobile
   {
     display: block !important;
