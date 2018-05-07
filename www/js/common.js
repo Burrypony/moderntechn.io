@@ -373,7 +373,7 @@ $('.set-button').click(function(e){
 
     // ===================== SOCIAL ======================
     // Set the date we're counting down to
-var countDownDate = new Date("May 8, 2018 11:50:00").getTime();
+var countDownDate = new Date("May 6, 2018 11:50:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -394,9 +394,9 @@ var x = setInterval(function() {
   document.getElementById("demo").innerHTML = days + " дней "+" : " + hours + " часов "+" : " + minutes + " минут "+" : " + seconds + " секунд ";
 
   // If the count down is finished, write some text
-  if (distance <= 10000000)
+  if (distance <= 15000000)
   {
-    countDownDate += 100000000;
+    countDownDate += 170000000;
   }
 
 }, 1000);
