@@ -502,7 +502,7 @@ div.menu-open{
     position: relative;
     left: 173px; }
   .MT-WPB h2 {
-    margin-top: 284px;
+    margin-top: 30%;
     margin-bottom: 25px; }
 
 .charge {
@@ -511,7 +511,7 @@ div.menu-open{
   background-image: url("../img/charge_bg.png");
   background-size: cover; }
   .charge h2 {
-    margin-top: 239px;
+    margin-top: 30%;
     margin-bottom: 25px; }
   .charge img {
     position: relative;
@@ -525,10 +525,10 @@ div.menu-open{
   background-size: cover; }
   .capability img {
     position: relative;
-    top: 235px;
+    top: 115px;
     left: -19px; }
   .capability h2 {
-    margin-top: 297px;
+    margin-top: 30%;
     margin-bottom: 20px; }
 
 .QI-cover {
@@ -540,7 +540,7 @@ div.menu-open{
   .QI-cover h2, .QI-cover p {
     margin-left: 70px; }
   .QI-cover h2 {
-    margin-top: 255px;
+    margin-top: 30%;
     margin-bottom: 25px; }
   .QI-cover img {
     position: relative;
@@ -1036,9 +1036,13 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .display_flex_992
+  {
+    display: flex !important;
+  }
   .display_none_992
   {
-    display: none;
+    display: none !important;
   }
   #iframe_inst_mobile
   {
@@ -1054,7 +1058,7 @@ color: #d7e1e7;
   }
   .margin_0_auto_992px
   {
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
   .padding0_992px
   {
@@ -1541,6 +1545,10 @@ text-align: center;
   display: block;
 }
 #iframe_inst_mobile
+{
+  display: none;
+}
+.display_none
 {
   display: none;
 }
