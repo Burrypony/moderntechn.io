@@ -64,6 +64,7 @@ header {
 .main-title-black {
   font-weight: bold;
   font-size: 36px;
+  text-align: left;
   color: #212121; }
 
 .main-title-white {
@@ -74,15 +75,18 @@ header {
 
 .main-p-grey {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 16px !important;
   line-height: 1.75;
+  text-align: left;
   color: #626262; }
 
 .main-p-white {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 16px !important;
   line-height: 1.75;
-  color: #d7e1e7 !important; }
+  color: #d7e1e7 !important;
+  text-align: left;
+}
 
 .header {
   width: 100%;
@@ -453,7 +457,8 @@ div.menu-open{
     width: 450px;
     height: 290px; }
     .MT-PBC .text-wrap h2 {
-      margin-bottom: 32px; }
+      margin-bottom: 32px;
+      margin-top: 25%;}
 
 .usb {
   width: 100%;
@@ -502,7 +507,7 @@ div.menu-open{
     position: relative;
     left: 173px; }
   .MT-WPB h2 {
-    margin-top: 30%;
+    margin-top: 45%;
     margin-bottom: 25px; }
 
 .charge {
@@ -511,7 +516,7 @@ div.menu-open{
   background-image: url("../img/charge_bg.png");
   background-size: cover; }
   .charge h2 {
-    margin-top: 30%;
+    margin-top: 50%;
     margin-bottom: 25px; }
   .charge img {
     position: relative;
@@ -540,7 +545,7 @@ div.menu-open{
   .QI-cover h2, .QI-cover p {
     margin-left: 70px; }
   .QI-cover h2 {
-    margin-top: 30%;
+    margin-top: 50%;
     margin-bottom: 25px; }
   .QI-cover img {
     position: relative;
@@ -1036,6 +1041,10 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .CoundownTimer
+  {
+    height: 60px !important;
+  }
   .display_flex_992
   {
     display: flex !important;
@@ -1130,7 +1139,8 @@ color: #d7e1e7;
     width: 100%;
     margin-left: 35px; }
     .MT-PBC .text-wrap h2 {
-      font-size: 30px; }
+      font-size: 30px;
+      }
   .tellephone {
     bottom: 30px;
     right: 35px; }
