@@ -525,7 +525,7 @@ div.menu-open{
 
 .capability {
   width: 100%;
-  height: 768px;
+  height: 768px !important;
   background-image: url("../img/capability_bg.png");
   background-size: cover; }
   .capability img {
@@ -793,6 +793,8 @@ div.menu-open{
     top: 108px;
     left: -91px; }
   .set h2 {
+    display: flex;
+    justify-content: center;
     margin-top: 263px;
     margin-bottom: 30px; }
 
@@ -819,6 +821,8 @@ div.menu-open{
   font-size: 16px;
   color: #626262; }
   .comment h2 {
+    display: flex;
+    justify-content: center;
     font-size: 48px;
     margin-top: 85px;
     margin-bottom: -15px; }
@@ -1041,6 +1045,14 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .div_timer
+  {
+    width: 100% !important;
+  }
+  .row{
+    width: 80%;
+    margin: 0 auto !important;
+  }
   .CoundownTimer
   {
     height: 60px !important;
@@ -1561,4 +1573,11 @@ text-align: center;
 .display_none
 {
   display: none;
+}
+.div_timer
+{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
