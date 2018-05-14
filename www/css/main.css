@@ -64,7 +64,7 @@ header {
 .main-title-black {
   font-weight: bold;
   font-size: 36px;
-  text-align: left;
+  text-align: center;
   color: #212121; }
 
 .main-title-white {
@@ -248,7 +248,10 @@ header {
   width: 100%;
   margin-top: 47px;
   font-size: 16px;
-  color: #626262; }
+  color: #626262;
+  display: flex;
+  align-items: center;
+  }
   .menu li {
     display: inline-block;
     margin-left: 11%; }
@@ -448,7 +451,7 @@ div.menu-open{
     margin-top: 10px; }
 
 .MT-PBC {
-  height: 770px;
+  height: 770px !important;
   width: 100%;
   background-image: url("../img/MT-PBC_bg.png");
   background-size: cover;
@@ -500,7 +503,7 @@ div.menu-open{
 
 .MT-WPB {
   width: 100%;
-  height: 771px;
+  height: 771px !important;
   background-image: url("../img/MT-WPB_bg.png");
   background-size: cover; }
   .MT-WPB img {
@@ -1279,7 +1282,9 @@ color: #d7e1e7;
   .menu {
     margin-top: 15px;
     opacity: 0;
-    text-align: center; }
+    text-align: center;
+    flex-direction: column;
+    }
     .menu li {
       display: block;
       margin-left: 0; }
@@ -1305,7 +1310,6 @@ color: #d7e1e7;
   .advantages .adv-img {
     width: 45%; }
   .MT-PBC .text-wrap {
-    width: 80%;
     height: auto; }
   .main-p-grey
   {
@@ -1325,8 +1329,7 @@ color: #d7e1e7;
       margin: 0 auto;
       margin-top: 30px; }
     .usb h2 {
-      margin-top: 365px;
-      margin-left: 35px; }
+      margin-top: 365px; }
     .usb p {
       margin-left: 35px; }
   .compatible h2 {
@@ -1353,8 +1356,7 @@ color: #d7e1e7;
     left: 0; }
   .MT-WPB h2 {
     margin-top: 30px;
-    margin-bottom: 25px;
-    margin-left: 35px; }
+    margin-bottom: 25px; }
   .MT-WPB p {
     margin-left: 0; }
   .charge h2 {
@@ -1396,8 +1398,7 @@ color: #d7e1e7;
   .compatible-2 {
     text-align: center; }
     .compatible-2 h2 {
-      margin-top: 30px;
-      margin-left: 35px; }
+      margin-top: 30px; }
     .compatible-2 .iphone2 {
       margin-top: 30px;
       margin-bottom: 30px; }
