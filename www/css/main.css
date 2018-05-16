@@ -1044,10 +1044,56 @@ color: #d7e1e7;
   .wrapper {
     width: 100%; }
   .menu li {
-    margin-left: 7%; }
+    margin-left: 7%;
+   }
+   .margin_left_0_1170px
+   {
+     margin-left: 0 !important
+   }
 
 
 @media (max-width: 992px) {
+  .compatible-2
+  {
+    height: 600px !important;
+  }
+  .QI-cover
+  {
+    height: 600px !important;
+  }
+  .MT-WPB
+  {
+    height: 550px !important;
+  }
+  .charge
+  {
+    height: 550px !important;
+  }
+  .capability
+  {
+    height: 550px !important;
+  }
+  .usb
+  {
+    height: 650px !important;
+  }
+  .usb .wrapper
+  {
+    display: flex;
+    align-items: center;
+  }
+  .compatible
+  {
+    height: 650px !important;
+  }
+  .compatible .wrapper
+  {
+    display: flex;
+    align-items: center;
+  }
+  .MT-PBC{
+    height: 650px !important;
+  }
   .div_timer
   {
     width: 100% !important;
@@ -1481,8 +1527,6 @@ color: #d7e1e7;
     font-size: 24px; }
   .main-p-grey, .main-p-white {
     font-size: 14px; }
-  .main {
-    margin-top: 20px; }
     .main h1 {
       font-size: 28px; }
     .main h3 {
