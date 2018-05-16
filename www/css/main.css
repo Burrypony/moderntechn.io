@@ -1053,6 +1053,14 @@ color: #d7e1e7;
 
 
 @media (max-width: 992px) {
+  .draggable
+  {
+    width: 100%!important;
+  }
+  .slick-list
+  {
+    width: 100%!important;
+  }
   .compatible-2
   {
     height: 600px !important;
@@ -1111,14 +1119,6 @@ color: #d7e1e7;
     display: flex !important;
   }
   .display_none_992
-  {
-    display: none !important;
-  }
-  #iframe_inst_mobile
-  {
-    display: block !important;
-  }
-  #iframe_inst_desctope
   {
     display: none !important;
   }
@@ -1300,7 +1300,7 @@ color: #d7e1e7;
     display: block;
     position: absolute;
     bottom: 47px;
-    left: 14%;
+    left: 12%;
   }
   .iphone img, .iphone2 img{
     width: 25%;
@@ -1626,4 +1626,9 @@ text-align: center;
   justify-content: space-around;
   align-items: center;
   //test
+}
+.slick-list .draggable
+{
+  width: 100% !important;
+
 }
